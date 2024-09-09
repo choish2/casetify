@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+
+
+#header{width: 100%; height: 170px;}
+
+.hda{width: 1340px; height: 170px; margin: 0 auto;}
+
+#header .logo{width: 191px; height: 66px;
+     margin:37px auto;}
+
+     #header .lmenu ul li{height: 23px;
+         float:left;margin-bottom: 120px;  }
+         #header .lmenu ul li img{height: 23px;}   
+
+     #header .smenu ul li{width: 80px;height: 50px;;
+    font-size: 14px; float: right;margin-bottom: 120px; 
+    text-align: center; }
+#header .topmenu {width: 780px; height: 50px; margin: 0 auto; position: relative;}
+#header .topmenu > ul li {width: 156px ; height: auto;;
+    line-height: 50px; float: left;  
+    text-align: center; font-size: 20px; font-weight: bold;}
+    #header .topmenu ul li a:hover{background:hsla(0, 0%, 0%, 0.678); color:#fff;}    
+#header .topmenu ul li a{color: #000;display: block; }
+#header .topmenu ul li a:hover~.ss{height: 50px;;}
+
+
+#header .topmenu .ss{width: 100%; height: 0px; margin: 0 auto;;overflow: hidden;position: absolute;
+left: 0;}
+#header .topmenu .ss li{width: 24.8%; height: 50px; border-left: 1px solid #7e7e7e; 
+    background: hsla(0, 0%, 0%, 0.678); float: left; line-height: 50px; font-size: 14px;
+    margin: 0 auto; }
+    #header .topmenu .ss #buy{border-left: 0px solid #000; }
+    #header .topmenu .ss > li {color: #fff; font-weight: normal ;;}
+
+
+/*헤 더 끝*/
+
+#visual{width: 100%; height: 650px; 
+    background: url(../img/mainimg.png);}
+
+#section_box{width: 100%;height: 2610px; background: #fff;}
+#section_box .v1{width: 1340px; height: 574px; 
+     margin: 0 auto; }
+    #section_box .v1 .v1_1{width: 1340px;; height: 280px; 
+        margin-top: 147px;}
+        #section_box .v1 .v1_1 li{width: 430px; height: 100%;
+        float: left;margin-right: 16px;
+}    /*보더 이거 나중에 지워라*/
+        #section_box .v1 .v1_1 .first{margin-left:2px;}    
+        #section_box .v1 .v1_1 li span ul .img{width: 243px;
+        height: 280px;  border-radius: 5px ; box-shadow: 1px 1px 1px 1px #0e0d0d13;
+        border: 1px solid #92929246; float: left;}
+        #section_box .v1 .v1_1 li span ul .img:hover{box-shadow: 2px 2px 2px 2px #0e0d0d36 }
+        #section_box .v1 .v1_1 li span ul li img{width: 100%;
+        height: 100%; float: left;;}
+        
+        
+        #section_box .v1 .v1_1 li span ul .content_small{width: 153px;
+            height:auto; float: left;;}
+        .v1 .v1_1 li span ul .content_small h2{width: 157px;height:40px ; 
+            line-height: 40px ; margin: 0 auto; ;border-bottom: 1px solid #7e7e7e;
+        display: inline-block;}    
+     
+        .v1 .v1_1 li span ul .content_small span { font-size: 14px;;width: 157px;
+        height:auto; display: inline-block;;margin-top: 10px;} 
+        
+        
+        #section_box .v2{width: 100%; height: 656px; background: #333;}
+        #section_box .v2 h2{width: 100%; height: 210px; text-align: center;
+        line-height: 210px;color:#fff;}
+        #section_box .v2 .vv2{width: 1340px; height: 287px; 
+            margin: auto;;}
+        #section_box .v2 .vv2 li{width: 430px; height: 131px; 
+            background: #000; display: inline-block; margin: 5px 6.5px;}    
+            #section_box .v2 .vv2 li img:hover{box-shadow:3px 3px 3px 3px #00000082;}    
+     
+     
+     
+        #section_box .v3{width: 100% ; height: 495px; }
+        #section_box .v3 h2{width: 100%; height: 170px; text-align: center; line-height: 170px;
+         letter-spacing: 5px; font-family: 'Pretendard-Black';;}
+        #section_box .v3 .vv3{width: 1340px; height: 150px; margin:0 auto ;
+        line-height: 150px;}
+        #section_box .v3 .vv3 li{width: 665px;height: 150px; background: #000;
+        display: inline-block;;}
+        
+        #section_box .another{width: 100%; height: 885px; background: #333;}
+        #section_box .another h2{width: 100%; height: 160px; line-height: 160px;
+        text-align: center;font-size: 20px; color: #fff;}
+        #section_box .another .a1{width: 1340px; height: 563px; 
+             margin: 0 auto; }
+             #section_box .another .a1 .a_left{width: 248px; height: 567px; ;float: left;}
+             #section_box .another .a1 .a_top{width: 1068px; height: 190px; ;float: right;}
+             #section_box .another .a1 .a_middle{width: 1068px; height: 153px; ;float: right;
+                margin:25px 0 25px 0 ;}
+             #section_box .another .a1 .a_bottom{width: 1068px; height: 174px; ;float: right;}
+             
+        
+             #section_box .another .a1 .a_left ul .left_top
+             {width: 100%; height: 370px; background: saddlebrown;}
+             #section_box .another .a1 .a_left ul .left_top img
+             {width: 100%;height: 100%;}
+             #section_box .another .a1 .a_left ul .left_bottom
+             {width: 100%; height: 172px; background:aqua; margin-top: 25px;}
+             #section_box .another .a1 .a_left ul .left_bottom img
+             {width: 100%;height: 100%;}   
+             #section_box .another .a1 .a_left ul li:hover{box-shadow:3px 3px 3px#00000082;}
+          
+             #section_box .another .a1 .a_top ul .top_first
+             {width: 379px; height: 190px; background: #fff;float: left;}
+             #section_box .another .a1 .a_top ul .top_second
+             {width: 254px; height: 190px; background: aquamarine; float: left;
+            margin-left: 25px;}
+            #section_box .another .a1 .a_top ul .top_third
+            {width: 385px; height: 190px; margin-left: 25px ;
+                float: left;background: darkgreen;}
+                #section_box .another .a1 .a_top ul li:hover{box-shadow:3px 3px 3px #00000082;} 
+           
+                #section_box .another .a1 .a_middle ul .middle_first
+            {width: 658px; height: 153px; background: sandybrown;float: left;}
+            #section_box .another .a1 .a_middle ul .middle_second
+           {width: 385px;height: 153px; float: left; margin-left: 25px; background: #fff;}
+           #section_box .another .a1 .a_middle ul li:hover{box-shadow:3px 3px 3px #00000082;}           
+          
+           #section_box .another .a1 .a_bottom ul .bottom_second
+           {width: 658px; height: 174px;margin-left: 25px; background: sandybrown;float: left;}
+           #section_box .another .a1 .a_bottom ul .bottom_second img
+           {width: 658px; height: 100%;}
+           #section_box .another .a1 .a_bottom ul .bottom_first
+          {width: 385px;height: 174px; float: left; ; background: #fff;}
+          #section_box .another .a1 .a_bottom ul li:hover{box-shadow:3px 3px 3px  #00000082;}      
+        
+          .blank{width: 100%; height: 148px; ;;}
+          
+          .footer{width: 100%; height: 228px; background: #333; margin: 0 auto; position: relative;}
+          .footer .footer_box{width: 1340px;height: 104px;
+       ;display: inline-block; margin: 60px 0 0 0 ; position: absolute;left: 15%;} 
+          .footer .footer_box .footer_logo{width: 191px;height: 66px;float: left; 
+            margin: 20px auto;} 
+          .footer .footer_box .footer_copyright{width: 975px; height: 104px;
+        float: right; text-align: left; margin: 0 0 0 174px ; color: #fff;
+    font-size: 21.3px;font-family: 'Pretendard-Light';}
+
+        
